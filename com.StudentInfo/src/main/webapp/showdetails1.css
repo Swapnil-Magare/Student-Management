@@ -1,0 +1,126 @@
+@charset "ISO-8859-1";
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Main Container */
+.showdetails-container {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Header */
+.showdetails-container h1 {
+    color: #003366;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* User Details */
+.showdetails-container h3 {
+    font-size: 1.2em;
+    color: #00509e;
+    margin: 15px 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* Error Message */
+.showdetails-container .error-message {
+    font-size: 1em;
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Success Message */
+.showdetails-container .success-message {
+    font-size: 1em;
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/* Button */
+.showdetails-container button {
+    padding: 10px 20px;
+    background-color: #00509e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.showdetails-container button:hover {
+    background-color: #003366;
+}
+
+.showdetails-container a {
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .copy {
+    font-size: 0.9em;
+}

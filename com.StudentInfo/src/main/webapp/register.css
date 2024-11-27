@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header */
+header h1 {
+    color: #003366;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Main Section */
+main {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form h2 {
+    font-size: 1.5em;
+    color: #003366;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.register-form label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #00509e;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.register-form input[type="text"]:focus,
+.register-form input[type="email"]:focus,
+.register-form input[type="password"]:focus {
+    outline: none;
+    border-color: #00509e;
+    box-shadow: 0 0 5px rgba(0, 80, 158, 0.2);
+}
+
+/* Submit Button */
+.register-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00509e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.register-form button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Login Link */
+.register-form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-form p a {
+    color: #00509e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-form p a:hover {
+    text-decoration: underline;
+}
+
+/* Status Message */
+.status-message {
+    font-size: 0.9em;
+    color: #ff0000;
+    text-align: center;
+}

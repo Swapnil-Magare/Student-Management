@@ -1,0 +1,141 @@
+@charset "ISO-8859-1";
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header Navbar */
+.navbar {
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* User Details Section */
+.user-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.user-details h3 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.nav-links li {
+    background-color: #00509e;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Alert Messages */
+.alert {
+    margin-top: 15px;
+    padding: 15px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Logout Button */
+#logout {
+    margin-top: 20px;
+}
+
+#logout a button {
+    background-color: #d9534f;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#logout a button:hover {
+    background-color: #c9302c;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+}
+
+footer .copy {
+    font-size: 0.9em;
+}
+
+.log {
+  mix-blend-mode: color-burn;
+  background-color: #00509e; /* Set the background color */
+}

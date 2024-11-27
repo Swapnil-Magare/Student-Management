@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Section */
+main {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h2 {
+    font-size: 1.8em;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form label {
+    font-weight: bold;
+    color: #00509e;
+    width: 100%;
+    margin-top: 15px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+    outline: none;
+    border-color: #00509e;
+    box-shadow: 0 0 5px rgba(0, 80, 158, 0.2);
+}
+
+/* Submit Button */
+form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #00509e;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #003366;
+}
+
+/* Sign-Up Link */
+form p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+form p a.signup-link {
+    color: #00509e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form p a.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Status Message */
+.status-message {
+    font-size: 0.9em;
+    color: #ff0000;
+    text-align: center;
+    margin-bottom: 10px;
+}
