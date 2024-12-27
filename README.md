@@ -120,7 +120,7 @@ db.password=your_postgresql_password
 - Deploy the project to **Apache Tomcat** or your preferred servlet container.
 - Access the application at `http://localhost:8080/student-management`.
 
-## 🛡️ Security Features
+## 🛡️ Security Features 
 - Password hashing using **SHA-256** (or any other hashing algorithm) for secure storage of user credentials.
 - Input validation to prevent SQL injection and XSS attacks.
 - Session management to ensure secure login and logout processes.
